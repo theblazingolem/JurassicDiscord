@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: 'decotura';
+    src: url(decoturaicginline.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'opticivet';
+    src: url(OPTICivetCondMedium.ttf) format('truetype');
+}
+body{
+    background-color: #586aea;
+}
+.main{
+    width: 650px;
+    height: 420px;
+    position: absolute;
+    inset: 0px;
+    margin: auto;
+    text-align: center;
+}
+.head{
+    color: white;
+    font-family: 'decotura';
+    font-size: 5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: white;
+    font-family: 'opticivet';
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button{
+    background-color: white;
+    border: 5px solid white;
+    color: #586aea;
+    font-family: 'opticivet';
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+}
+.bglogo{
+    display: flex;
+    position: fixed;
+    inset: 0px;
+    margin: auto;
+    width: 420px;
+    z-index: -1;
+    opacity: 50%;
+}
+@media (orientation: portrait) {
+    .head{
+        font-size: 8em;
+    }
+    .desc{
+        font-size: 50px;
+    }
+    button{
+        font-size: 50px;
+        padding: 5px 50px 5px 50px;
+    }
+}
