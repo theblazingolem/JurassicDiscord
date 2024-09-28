@@ -51,6 +51,12 @@ button{
     z-index: -1;
     opacity: 50%;
 }
+.cc{
+    font-family: 'opticivet';
+    color: white;
+    opacity: 50%;
+    padding-top: 20px;
+}
 @media (orientation: portrait) {
     .head{
         font-size: 8em;
